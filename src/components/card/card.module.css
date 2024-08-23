@@ -1,0 +1,70 @@
+.modo_light_card,
+.modo_dark_card{
+    width: 300px;
+    height: 300px;
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    background-color: transparent;
+    text-align: left;
+    
+}
+.modo_light_card{  
+    box-shadow: 1px 1px 3px 3px #cccccc;
+    color: #000000;
+}
+
+.modo_dark_card{
+    box-shadow: 1px 1px 3px 3px #8b724352;
+    color: #cccccc;
+}
+
+.modo_light_card:hover{
+    background-color: #feb633;
+}
+
+.modo_dark_card:hover{
+    background-color: #feb633;
+    color: #000000;
+}
+
+.container_info_card{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+.modo_light_card p,
+.modo_dark_card p {
+    width: 100%;
+    font-size: 16px;
+}
+.container_info_card span{
+    font-size: 16px;
+}
+
+.container_info_card h3{
+    font-size: 24px;
+}
+.container_info_card small{
+    font-size: 14px;
+}
+
+@media (max-width:1024px){
+    .modo_light_card p,
+    .modo_dark_card p{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .modo_light_card,
+    .modo_dark_card{
+        width: 90%;
+        margin: 0 auto;
+        justify-content: center;
+    }
+}
+
