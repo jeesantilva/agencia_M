@@ -15,6 +15,7 @@
 .modo_light_header div,
 .modo_dark_header div{
     width: 90%;
+    margin: 0 auto;
     height: 100%;
     display: flex;
     gap: 10px;
